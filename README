@@ -1,0 +1,19 @@
+Hi there!
+This project is all about making communication more inclusive and accessible by recognizing American Sign Language (ASL) gestures in real-time. 
+Using a webcam, it detects hand gestures and tells you which sign is being shown — all through a clean and simple Streamlit app.
+
+Whether you're curious about hand gesture recognition or building something for a more inclusive future, this project is a great place to start.
+What This Project Can Do
+Live hand tracking using your webcam for real-time interaction
+Recognizes ASL gestures from A to Z and numbers 1 to 9
+Supports dynamic signs like ‘J’ and ‘Z’ that require movement detection
+Built on a trained CNN model using a labeled ASL dataset
+Interactive and easy-to-use interface powered by Streamlit
+Displays predictions with confidence scores and highlights the detected hand with a bounding box
+About the Model
+*Takes in 50x50 RGB images
+*Built using a simple CNN (Conv2D, MaxPooling, Dense, Dropout)
+*Trained with image augmentation and validation
+*Outputs a class label with a probability score
+
+
